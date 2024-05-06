@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/a_playful_jungle_landscape_game_concept_art_background_ai_generated_free_photo"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/etAppName"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:fontFamily="@font/baloo"
+            android:text="Let&quot;s Start"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/etSheep"
+            android:layout_width="match_parent"
+            android:layout_height="292dp"
+            app:srcCompat="@drawable/front_picture" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnFeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:text="Feed"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvEPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EPoints" />
+
+            <Button
+                android:id="@+id/btnBath"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:fontFamily="@font/baloo"
+                android:text="Bath"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BPoints" />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:text="Play"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvPPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PPoint" />
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:fontFamily="@font/baloo"
+                android:text="tvDisplay"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
